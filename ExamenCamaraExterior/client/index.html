@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat creado con Socket.IO</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <ul id="messages"></ul>
+    <form id="form" action="">
+        <input id="nickname" class="input-class" autocomplete="off" placeholder="Apodo">
+        <input id="input"  autocomplete="off" id="enviarBtn" placeholder="Mensaje..." disabled/><button>Enviar</button>
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/socketConfig.js"></script>
+</body>
+
+</html>

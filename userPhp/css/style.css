@@ -1,0 +1,78 @@
+html,
+body {
+    background: #F8EECB;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+form {
+    margin-top: 25px;
+}
+
+h1{
+    font-size: 1.6rem;
+}
+.app {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+    font-family: Lato, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.contenedor-principal {
+    padding: 14px;
+    background-color: #F5C065;
+    border-radius: 20px;
+    border: 5px solid #6E433D;
+    width: 100%;
+    max-width: 500px;
+}
+
+.fila {
+    margin: 8px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-enviar {
+    font-size: 1.1em;
+    display: flex;
+    background-color: #31603d;
+    margin-top: 8px;
+    justify-content: center;
+    padding: 10px;
+    width: 150px;
+    align-items: center;
+    font-weight: bold;
+    color: #f8eecb;
+    border: 3px solid #6e433d;
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+input {
+    border: none;
+    outline: none;
+    height: 34px;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+    border-radius: 22px;
+    width: 220px;
+    box-sizing: border-box;
+    padding: 0 18px;
+}
+
+
+.boton-enviar:hover {
+    background-color: #6e433d;
+}
