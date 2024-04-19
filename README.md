@@ -3,11 +3,16 @@ La prueba consiste en realizar el tutorial de la página de [Socket.io](https://
 
 
 # Instalación
-1. En primer lugar, se deberá de tener instalado Node.js. Para hacerlo se deberá de poner el siguiente comando :
+1. En primer lugar, se deberá de tener instalado Node.js.
 2. Para esta ocasión para correr los archivos php, se empleará Xampp.
-3. Se deberá clonar el repositorio en la carpeta deseada de su equipo.
-5. Una vez clonado, en la consola de su preferencia, se deberá ir a la ubicación del repositorio clonado e instalar dasdasd para tener todo listo para correr la aplicación. Notarás que el contenido de los archivos son diferentes al tutorial. Esto es debido a qué se implementó cambios para poder recibir la llamada. Asimismo, se implementó algunas funcionalidades nuevas.
-6. Finalmente, activa el servidor apache en Xampp y el servidor en Node.js para realizar las pruebas.
+3. Se deberá clonar el repositorio a la carpeta deseada de su equipo. El repositorio contiene dos carpetas:
+   <ul>
+      <li>php: Contiene los archivos php que deberán ser ubicados en la carpeta htppdocs de Xampp para poder ser sdasdas</li>
+      <li>dasdas: Contiene los archivos de la aplicación en Node.</li>
+   </ul> 
+5. En el caso de la aplicación php, solo basta con ponerla dentro de httpdocs que se encuentra ubicado en la ruta dónde se instaló Xampp y activar el botón Start de la interfaz del mismo.
+6. Por otro lado, para la aplicación de node, una vez de ubicarse mediante consola en la ruta correcta, se deberá de digitar el comando npm install para instalar las dependencias que se encuentran en el archivo package.json y tener todo listo para correr la aplicación. Notarás que el contenido de los archivos son diferentes al tutorial. Esto es debido a qué se implementó cambios para poder recibir la llamada. Asimismo, se implementó algunas funcionalidades nuevas.
+7. Finalmente, se deberá usar el siguiente comando: node ./app/index.js para ejecutar la aplicación de chat.
 
 
 # Capturas
