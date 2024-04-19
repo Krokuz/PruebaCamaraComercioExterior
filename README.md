@@ -19,27 +19,29 @@ La prueba consiste en realizar el tutorial de la página de [Socket.io](https://
 A continuación se mostrarán algunas capturas del proyecto:
 
 1. Vistas de la aplicación de chat terminada
-   *Aplicación terminada corriendo en el puerto 3000 del ambiente local
+   
+   - Aplicación terminada
    
    <p align="center">
      <img src="screenshots/vistaChat.JPG" alt="Vista del chat">
    </p>
 
 
-   *Prueba del funcionamiento del chat
+   - Prueba del funcionamiento del chat
    
    <p align="center">
      <img src="screenshots/vistaChatConDialogo.JPG" alt="Vista del chat con dialogo">
    </p>
 
 2. Vista de la aplicación de php que ejecutará la llamada cURL
-   *Aplicación corriendo mediante Xampp
+   
+   - Aplicación corriendo mediante Xampp
    
    <p align="center">
      <img src="screenshots/vistaFormularioPhp.JPG" alt="Vista de la app de php">
    </p>
 
-   *Validación de que no se envié un mensaje vacío
+   - Validación para mensajes vacíos
    
    <p align="center">
      <img src="screenshots/vistaFormularioPhpDatosVacios.JPG" alt="Vista de la app de php">
