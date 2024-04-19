@@ -4,25 +4,29 @@ La prueba consiste en realizar el tutorial de la página de [Socket.io](https://
 # Instalación
 1. En primer lugar, se deberá de tener instalado Node.js. Para hacerlo se deberá de poner el siguiente comando :
 2. Para esta ocasión para correr los archivos php, se empleará Xampp.
-3. Se deberá clonar el repositorio:
-    dsadasdasd
-5. Una vez clonado, en la consola de tu preferencia se deberá ir a la ubicación del repositorio clonado e instalar dasdasd para tener todo listo para correr la aplicación. Notarás que el contenido de los archivos son diferentes al tutorial. Esto es debido a qué se implementó cambios para poder recibir la llamada. Asimismo, se implementó algunas funcionalidades nuevas.
+3. Se deberá clonar el repositorio en la carpeta deseada de su equipo.
+5. Una vez clonado, en la consola de su preferencia, se deberá ir a la ubicación del repositorio clonado e instalar dasdasd para tener todo listo para correr la aplicación. Notarás que el contenido de los archivos son diferentes al tutorial. Esto es debido a qué se implementó cambios para poder recibir la llamada. Asimismo, se implementó algunas funcionalidades nuevas.
 6. Finalmente, activa el servidor apache en Xampp y el servidor en Node.js para realizar las pruebas.
 
 # Capturas
-1. sadsad
-   ![Captura de pantalla](screenshots/vistaChat.JPG)
+A continuación se mostrarán algunas capturas del proyecto:
 
-3. sdasdsadsa
-4. dsadasdsad
-5. sd
-6. asdsa
-7. d
-8. sad
-9. sa
-10. dsa
-11. dsa
-12. d
+1. Vistas de la aplicación de chat terminada
+   Aplicación terminada corriendo en el puerto 3000 del ambiente local
+   ![Vista del chat](screenshots/vistaChat.JPG)
+
+   Prueba del funcionamiento del chat
+   ![Vista del chat con diálogos](screenshots/vistaChatConDialogo.JPG)
+
+2. Vista de la aplicación de php que ejecutará la llamada cURL
+   Aplicación corriendo mediante Xampp
+   ![Vista de la app de php](screenshots/vistaFormularioPhp.JPG)
+
+   Validación de que no se envié un mensaje vacío
+   ![Vista de la app de php](screenshots/vistaFormularioPhpDatosVacios.JPG)
+
+3. Aplicaciones conectadas entre sí
+   ![Vista de la app de php](screenshots/llamadaCurlExitosa.JPG)
 
 # Consideraciones
-Esta es una demo básica para demostrar que se puede realizar un llamada cURL desde php hasta un websockte, por lo que hay muchas cosas que se pueden mejorar o implementar.
+Esta es una demo básica para demostrar que se puede realizar un llamada cURL desde php hasta un websockte, por lo que hay muchas cosas que se pueden mejorar o implementar ya sea en el aspecto visual o agregando algunas funciones.
