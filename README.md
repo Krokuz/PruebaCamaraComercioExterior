@@ -3,8 +3,8 @@ La prueba consiste en realizar el tutorial de la página de [Socket.io](https://
 
 
 # Instalación
-1. En primer lugar, se deberá de tener instalado **Node.js**.
-2. Para esta ocasión para correr los archivos php, se empleará **Xampp**.
+1. En primer lugar, se deberá de tener instalado [**Node.js**](https://nodejs.org/en).
+2. En esta ocasión, para montar un servidor local que pueda correr archivos php se empleará **Xampp**.
 3. Se deberá clonar el repositorio a la carpeta deseada de su equipo. El repositorio contiene dos carpetas principales:
    <ul>
       <li>**userPhp**: Contiene los archivos php que deberán ser ubicados en la carpeta htppdocs de Xampp para poder ser sdasdas</li>
