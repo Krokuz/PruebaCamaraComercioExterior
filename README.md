@@ -14,6 +14,42 @@ La prueba consiste en realizar el tutorial de la página de [Socket.io](https://
 6. Por otro lado, para la aplicación de node, una vez se ubique mediante consola en la ruta correcta, se deberá de digitar el comando **npm install** para instalar las dependencias para poder correr la aplicación. Notarás que el contenido de los archivos son diferentes al tutorial. Esto es debido a qué se implementó cambios para poder recibir la llamada. Asimismo, se implementó algunas funcionalidades nuevas.
 7. Finalmente, se deberá usar el siguiente comando: **node ./app/index.js** para ejecutar la aplicación del chat.
 
+#Explicación del código
+1. Archivo index.js ubicado en la carpeta app del proyecto de la aplicación del chat:
+   
+```javascript
+//Se crea un endpoint para poder recibir la petición POST del archivo php.
+app.post('/send-message', (req, res) => {
+//Se realiza una destructuración de objetos para extraer los datos requeridos del contenido del cuerpo de la solicitud.
+    const { message, nickname } = req.body;
+//Transmitimos los datos mediante Socket.IO a todos los clientes conectados.
+    io.emit('chat message', { message, nickname });
+//Se envía un mensaje de confirmación al archivo php.
+    res.send('Mensaje recibido con éxito.');
+});
+```
+2. Archivo curl-prueba.php ubicado en carpeta userPhp:
+
+```PHP
+//Almacenamos los datos que se van a enviar al servidor.
+   $data = array('message' => $mensaje, 'nickname' => 'Usuario de php');
+//Convertimos el array en un JSON.
+   $data_string = json_encode($data);
+//Se crea una solicitud curl para enviar el mensaje al servidor apuntando al endpoint creado previamente (send-message).
+    $ch = curl_init('http://localhost:3000/send-message');
+
+//Aquí se ponen las configuraciones necesarias para que la llamada funcione.
+
+//Se ejecuta la solicitud y la respuesta es almacenada.
+    $response = curl_exec($ch);
+    if ($response === false) {
+        echo "Error al enviar mensaje al chat del servidor: " . curl_error($ch);
+    } else {
+        echo "Mensaje enviado al chat de node correctamente.";
+    }
+//Cerramos la sesión.
+    curl_close($ch);
+```
 
 # Capturas
 A continuación se mostrarán algunas capturas del proyecto:
