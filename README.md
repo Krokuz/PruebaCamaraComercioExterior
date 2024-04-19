@@ -15,33 +15,33 @@ A continuación se mostrarán algunas capturas del proyecto:
    Aplicación terminada corriendo en el puerto 3000 del ambiente local
    
    <p align="center">
-     <img src="screenshots/vistaChat.JPG" alt="Vista del chat" width="850" height="620">
+     <img src="screenshots/vistaChat.JPG" alt="Vista del chat" width="850" height="600">
    </p>
 
 
    Prueba del funcionamiento del chat
    
    <p align="center">
-     <img src="screenshots/vistaChatConDialogo.JPG" alt="Vista del chat con dialogo" width="850" height="620">
+     <img src="screenshots/vistaChatConDialogo.JPG" alt="Vista del chat con dialogo" width="850" height="600">
    </p>
 
 2. Vista de la aplicación de php que ejecutará la llamada cURL
    Aplicación corriendo mediante Xampp
    
    <p align="center">
-     <img src="screenshots/vistaFormularioPhp.JPG" alt="Vista de la app de php" width="850" height="620">
+     <img src="screenshots/vistaFormularioPhp.JPG" alt="Vista de la app de php" width="850" height="600">
    </p>
 
    Validación de que no se envié un mensaje vacío
    
    <p align="center">
-     <img src="screenshots/vistaFormularioPhpDatosVacios.JPG" alt="Vista de la app de php" width="850" height="620">
+     <img src="screenshots/vistaFormularioPhpDatosVacios.JPG" alt="Vista de la app de php" width="850" height="600">
    </p>
 
 4. Aplicaciones conectadas entre sí
   
    <p align="center">
-     <img src="screenshots/llamadaCurlExitosa.JPG" alt="Vista app funcionando" width="850" height="620">
+     <img src="screenshots/llamadaCurlExitosa.JPG" alt="Vista app funcionando" width="850" height="600">
    </p>
 
 # Consideraciones
