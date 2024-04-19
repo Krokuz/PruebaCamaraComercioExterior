@@ -13,24 +13,36 @@ A continuación se mostrarán algunas capturas del proyecto:
 
 1. Vistas de la aplicación de chat terminada
    Aplicación terminada corriendo en el puerto 3000 del ambiente local
-   ![Vista del chat](screenshots/vistaChat.JPG)
+   
    <p align="center">
-     <img src="screenshots/vistaChat.JPG" alt="Texto alternativo" width="750" height="400">
+     <img src="screenshots/vistaChat.JPG" alt="Vista del chat" width="850" height="620">
    </p>
 
 
    Prueba del funcionamiento del chat
-   ![Vista del chat con diálogos](screenshots/vistaChatConDialogo.JPG)
+   
+   <p align="center">
+     <img src="screenshots/vistaChatConDialogo.JPG" alt="Vista del chat con dialogo" width="850" height="620">
+   </p>
 
 2. Vista de la aplicación de php que ejecutará la llamada cURL
    Aplicación corriendo mediante Xampp
-   ![Vista de la app de php](screenshots/vistaFormularioPhp.JPG)
+   
+   <p align="center">
+     <img src="screenshots/vistaFormularioPhp.JPG" alt="Vista de la app de php" width="850" height="620">
+   </p>
 
    Validación de que no se envié un mensaje vacío
-   ![Vista de la app de php](screenshots/vistaFormularioPhpDatosVacios.JPG)
+   
+   <p align="center">
+     <img src="screenshots/vistaFormularioPhpDatosVacios.JPG" alt="Vista de la app de php" width="850" height="620">
+   </p>
 
-3. Aplicaciones conectadas entre sí
-   ![Vista de la app de php](screenshots/llamadaCurlExitosa.JPG)
+4. Aplicaciones conectadas entre sí
+  
+   <p align="center">
+     <img src="screenshots/llamadaCurlExitosa.JPG" alt="Vista app funcionando" width="850" height="620">
+   </p>
 
 # Consideraciones
 Esta es una demo básica para demostrar que se puede realizar un llamada cURL desde php hasta un websockte, por lo que hay muchas cosas que se pueden mejorar o implementar ya sea en el aspecto visual o agregando algunas funciones.
