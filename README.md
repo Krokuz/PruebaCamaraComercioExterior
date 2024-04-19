@@ -14,6 +14,10 @@ A continuación se mostrarán algunas capturas del proyecto:
 1. Vistas de la aplicación de chat terminada
    Aplicación terminada corriendo en el puerto 3000 del ambiente local
    ![Vista del chat](screenshots/vistaChat.JPG)
+   <div align="center">
+  <img src="screenshots/vistaChat.JPG" alt="Texto alternativo" width="300" height="200">
+   </div>
+
 
    Prueba del funcionamiento del chat
    ![Vista del chat con diálogos](screenshots/vistaChatConDialogo.JPG)
