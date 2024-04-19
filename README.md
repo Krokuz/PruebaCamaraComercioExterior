@@ -1,5 +1,5 @@
 # Prueba de la Cámara de Comercio del Exterior
-La prueba consiste en realizar el tutorial de la página de [Socket.io](https://socket.io/get-started/chat), el cuál se nos enseña a crear una aplicación de chat básica para entender mejor el concepto de websockets. Una vez finalizado el tutorial se pasará a realizar una llamada cURL desde un archivo php.
+La prueba consiste en realizar el tutorial de la página de [Socket.io](https://socket.io/get-started/chat), en el cuál se nos enseña a crear una aplicación de chat básica para entender mejor el concepto de websockets. Una vez finalizado el tutorial se pasará a realizar una llamada cURL desde un archivo php.
 
 
 # Instalación
