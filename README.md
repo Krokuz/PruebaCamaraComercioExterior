@@ -15,7 +15,7 @@ A continuación se mostrarán algunas capturas del proyecto:
    Aplicación terminada corriendo en el puerto 3000 del ambiente local
    ![Vista del chat](screenshots/vistaChat.JPG)
    <p align="center">
-  <img src="screenshots/vistaChat.JPG" alt="Texto alternativo" width="700" height="600">
+     <img src="screenshots/vistaChat.JPG" alt="Texto alternativo" width="700" height="500">
    </p>
 
 
