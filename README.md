@@ -10,6 +10,19 @@ La prueba consiste en realizar el tutorial de la página de [Socket.io](https://
 6. Finalmente, activa el servidor apache en Xampp y el servidor en Node.js para realizar las pruebas.
 
 # Capturas
+1. sadsad
+   ![Captura de pantalla](screenshots/vistaChat.JPG)
+
+3. sdasdsadsa
+4. dsadasdsad
+5. sd
+6. asdsa
+7. d
+8. sad
+9. sa
+10. dsa
+11. dsa
+12. d
 
 # Consideraciones
 Esta es una demo básica para demostrar que se puede realizar un llamada cURL desde php hasta un websockte, por lo que hay muchas cosas que se pueden mejorar o implementar.
