@@ -14,7 +14,7 @@ La prueba consiste en realizar el tutorial de la página de [Socket.io](https://
 6. Por otro lado, para la aplicación de node, una vez se ubique mediante consola en la ruta correcta, se deberá de digitar el comando **npm install** para instalar las dependencias para poder correr la aplicación. Notarás que el contenido de los archivos son diferentes al tutorial. Esto es debido a qué se implementó cambios para poder recibir la llamada. Asimismo, se implementó algunas funcionalidades nuevas.
 7. Finalmente, se deberá usar el siguiente comando: **node ./app/index.js** para ejecutar la aplicación del chat.
 
-#Explicación del código
+# Explicación del código
 1. Archivo index.js ubicado en la carpeta app del proyecto de la aplicación del chat:
    
 ```javascript
