@@ -3,43 +3,43 @@ La prueba consiste en realizar el tutorial de la página de [Socket.io](https://
 
 
 # Instalación
-1. En primer lugar, se deberá de tener instalado Node.js.
-2. Para esta ocasión para correr los archivos php, se empleará Xampp.
-3. Se deberá clonar el repositorio a la carpeta deseada de su equipo. El repositorio contiene dos carpetas:
+1. En primer lugar, se deberá de tener instalado **Node.js**.
+2. Para esta ocasión para correr los archivos php, se empleará **Xampp**.
+3. Se deberá clonar el repositorio a la carpeta deseada de su equipo. El repositorio contiene dos carpetas principales:
    <ul>
-      <li>php: Contiene los archivos php que deberán ser ubicados en la carpeta htppdocs de Xampp para poder ser sdasdas</li>
-      <li>dasdas: Contiene los archivos de la aplicación en Node.</li>
+      <li>**userPhp**: Contiene los archivos php que deberán ser ubicados en la carpeta htppdocs de Xampp para poder ser sdasdas</li>
+      <li>**ExamenCamaraExterior**: Contiene los archivos de la aplicación en Node.</li>
    </ul> 
-5. En el caso de la aplicación php, solo basta con ponerla dentro de httpdocs que se encuentra ubicado en la ruta dónde se instaló Xampp y activar el botón Start de la interfaz del mismo.
-6. Por otro lado, para la aplicación de node, una vez de ubicarse mediante consola en la ruta correcta, se deberá de digitar el comando npm install para instalar las dependencias que se encuentran en el archivo package.json y tener todo listo para correr la aplicación. Notarás que el contenido de los archivos son diferentes al tutorial. Esto es debido a qué se implementó cambios para poder recibir la llamada. Asimismo, se implementó algunas funcionalidades nuevas.
-7. Finalmente, se deberá usar el siguiente comando: node ./app/index.js para ejecutar la aplicación de chat.
+5. En el caso de la aplicación php, solo basta con ponerla dentro de **htdocs** que se encuentra ubicada en la ruta dónde se instaló Xampp y activar el botón Start de la interfaz del mismo.
+6. Por otro lado, para la aplicación de node, una vez se ubique mediante consola en la ruta correcta, se deberá de digitar el comando npm install para instalar las dependencias para poder correr la aplicación. Notarás que el contenido de los archivos son diferentes al tutorial. Esto es debido a qué se implementó cambios para poder recibir la llamada. Asimismo, se implementó algunas funcionalidades nuevas.
+7. Finalmente, se deberá usar el siguiente comando: **node ./app/index.js** para ejecutar la aplicación del chat.
 
 
 # Capturas
 A continuación se mostrarán algunas capturas del proyecto:
 
 1. Vistas de la aplicación de chat terminada
-   Aplicación terminada corriendo en el puerto 3000 del ambiente local
+   *Aplicación terminada corriendo en el puerto 3000 del ambiente local
    
    <p align="center">
      <img src="screenshots/vistaChat.JPG" alt="Vista del chat">
    </p>
 
 
-   Prueba del funcionamiento del chat
+   *Prueba del funcionamiento del chat
    
    <p align="center">
      <img src="screenshots/vistaChatConDialogo.JPG" alt="Vista del chat con dialogo">
    </p>
 
 2. Vista de la aplicación de php que ejecutará la llamada cURL
-   Aplicación corriendo mediante Xampp
+   *Aplicación corriendo mediante Xampp
    
    <p align="center">
      <img src="screenshots/vistaFormularioPhp.JPG" alt="Vista de la app de php">
    </p>
 
-   Validación de que no se envié un mensaje vacío
+   *Validación de que no se envié un mensaje vacío
    
    <p align="center">
      <img src="screenshots/vistaFormularioPhpDatosVacios.JPG" alt="Vista de la app de php">
